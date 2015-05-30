@@ -54,28 +54,6 @@ body{
 	margin-left: auto;
 }
 
-.playerPic{
-	transform:scale(0.5, 0.5);
-	transform-origin:0 0;
-	margin-top:-50%;
-	margin-left: 40%;
-	
-}
-
-.Trophy{
-	transform:scale(0.75, 0.75);
-	transform-origin:0 0;
-	margin-top: 0%;
-	margin-left: 35%;
-	padding-top: 200px
-}
-
-#history {
-	padding: 20px 200px;
-	margin: 20px 20px;
-	font-family: 'Pacifico', cursive;
-}
-
 #players  {
 	top: 100;
 	padding-bottom: 100px;
@@ -92,6 +70,19 @@ body{
 	font-family: 'Pacifico', cursive;
 
 }
+.playerPic{
+	transform:scale(0.5, 0.5);
+	transform-origin:0 0;
+	margin-top:-50%;
+	margin-left: 40%;
+	
+}
+
+#history {
+	padding: 20px 200px;
+	margin: 20px 20px;
+	font-family: 'Pacifico', cursive;
+}
 
 #historyText{
 	padding-bottom: 400px;
@@ -102,4 +93,12 @@ body{
 	margin-top: 200px;
 	padding-top: 200px;
 
+}
+
+.Trophy{
+	transform:scale(0.75, 0.75);
+	transform-origin:0 0;
+	margin-top: 0%;
+	margin-left: 35%;
+	padding-top: 200px
 }
